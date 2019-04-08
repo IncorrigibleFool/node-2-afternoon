@@ -30,7 +30,7 @@ export default class ChatWindow extends Component {
   }
 
   handleNameChange = (event) => {
-    this.setState({userName: event.target.value})
+    this.setState({name: event.target.value})
   }
 
   handleChange( event ) {
